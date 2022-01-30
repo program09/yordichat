@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yordi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/yeti/bootstrap.min.css" />
+</head>
+
+<body class="">
+    <!-- ADD TASK -->
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="task-form" class="formulario">
+                    <h1 class="h4">Chat personal</h1>
+                    <input type="text" id="task-title" class=" mb-3" class="My First Title" placeholder="Nombre de usuario" autofocus />
+                    <textarea id="task-description" rows="3" class=" mb-3" placeholder="Mensaje"></textarea>
+                    <button class="" id="btn-task-form">Enviar</button>
+                </form>
+            </div>
+            <!-- Tasks List -->
+            <div class="col-md-6" id="tasks-container"></div>
+        </div>
+    </div>
+
+    <!-- CUSTOM CODE -->
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>

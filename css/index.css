@@ -1,0 +1,30 @@
+.formulario {
+    background-color: rgb(53, 53, 53);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario h1 {
+    padding-top: 10px;
+    color: white;
+}
+
+.formulario input {
+    width: 96%;
+    margin: auto;
+    outline: none;
+}
+
+.formulario textarea {
+    width: 96%;
+    margin: auto;
+    outline: none;
+}
+
+.formulario button {
+    background: rgb(29, 135, 184);
+    padding: 6px 15px;
+    border: 0px;
+    margin-bottom: 20px;
+}
